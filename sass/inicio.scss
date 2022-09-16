@@ -1,5 +1,57 @@
 .InicioSeccion{
     width: 100%;
     height: 700px;
-    background-image: url(../media/grama.webp);
+    background-image: url(../media/boldizsar-bednarik-AwwdfImDUeQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    border: 1px solid transparent;
+    
 }
+
+.imgJimo{
+   
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-top: 150px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.723);
+    border-radius: 10px;
+    transition: 1s ease;
+    border: 3px solid black;
+ 
+}
+
+.imgJimo:hover{
+
+    background-color: rgb(255, 255, 255);
+    transition: 1s ease;
+
+}
+
+.imgJimo img{
+   
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: -80px;
+    transition: 1s ease;
+}
+
+
+
+
+
+
+
+.dos{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../media/Plantilla\ de\ Instagram\ con\ citas\ de\ motivación\ minimalista\ degradada\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+
