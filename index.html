@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <title>JIMO</title>
     <link rel="stylesheet" href="css/principal.css">
 
@@ -24,10 +28,10 @@
             <ul class="ulC">
                 <li class="liC"><a href="#" class="link">Inicio</a></li>
 
-                <li class="liC"><a href="#" class="link">Nosotros</a></li>
+                <li class="liC"><a href="#nosotros" class="link">Nosotros</a></li>
 
                 <li class="liC">
-                    <a href="#" class="link">Productos</a>
+                    <a href="#Productos" class="link">Productos</a>
                     <ul class="menuVertical">
                         <li><a href="#">Hornitos</a></li>
                         <li><a href="#">Perfumeria Fina</a></li>
@@ -48,7 +52,11 @@
 
     </section>
 
-    <section class="NosotrosSeccion">
+    <div class="medio">
+        <h1>"QUE NADIE DETENGA TUS SUEÑOS"</h1>
+    </div>
+
+    <section class="NosotrosSeccion" id="nosotros">
 
         <h1 class="TituloNosotros">NOSOTROS</h1>
 
@@ -68,8 +76,46 @@
 
     </section>
 
+    <section class="SeccionProductos" id="Productos">
+       
+        <h1 class="TituloProductos">Productos</h1>
 
-    
+        <div class="divProductos">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide">
+                    <img src="media/velas.jpg" />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="media/perfumina.jpg" />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="media/aceites.jpg" />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="media/difusores.jpg" />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="media/esotericas.jpg" />
+                  </div>
+        
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="app.js"></script>
+    
 </body>
 </html>

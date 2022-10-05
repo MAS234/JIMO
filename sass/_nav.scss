@@ -15,7 +15,7 @@ body{
 .header{
 
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.638);
+    background-color: rgba(0, 0, 0, 0.494);
     padding: 0.5em;
     justify-content: center;
     display: flex;
@@ -33,7 +33,7 @@ body{
     font-weight: lighter;
     letter-spacing: 2px;
     font-size: 25px;
-    padding: 10px;
+
 }
 
 .header .boton{
@@ -58,10 +58,12 @@ body{
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    
 }
 
 .header .liC{
     margin: 0 2em;
+    margin-top: 10px;
     list-style: none;
     text-transform: uppercase;
 }
@@ -72,7 +74,7 @@ body{
 }
 
 .link:hover{
-    color: gray;
+    color: rgb(0, 0, 0);
 }
 
 .menu li:hover .menuVertical{
@@ -86,8 +88,9 @@ body{
     display: none;
     list-style: none;
     width: 10%;
-    height: 120px;
-    background-color: rgba(0, 0, 0, 0.624);
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.447);
 
 }
 
