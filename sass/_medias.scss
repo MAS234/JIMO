@@ -222,9 +222,9 @@
 
     .SeccionProductos{
         width: 100%;
-        height: 150vh;
+        height: 160vh;
         background-image: url(../media/velaIntento1456.jpg);
-        background-size: 500%;
+        background-size: 600%;
         background-repeat: no-repeat;
     }
 
@@ -244,6 +244,41 @@
         font-size: 1.5rem;
 
       }
+
+      .SeccionPerfumeFinoYLimpieza{
+        width: 100%;
+        height: 100vh;
+        border-top: 1px solid black;
+        display: block;
+    }
+
+      .TituloPerfumeFino{
+        font-size: 2.5rem;
+    }
+
+    .TituloLimpieza{
+        font-size: 2.5rem;
+    }
+
+    .PartePerfumeria{
+        width: 100%;
+        height: 50%;
+        background-image: url(../media/perfumeHombre.jpg);
+        background-repeat: no-repeat;
+        border: .1px solid black;
+        background-size: 120%;
+    }
+
+    .ParteLimpiza{
+
+        width: 100%;
+        height: 50%;
+        background-image: url(../media/local.png);
+        background-repeat: no-repeat;
+        border: .1px solid black;
+        background-size: 100%;
+        background-position: center;
+    }
       
     
 

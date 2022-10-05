@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,300&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,300&family=PT+Serif&family=Quicksand:wght@300;400&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
 
@@ -13,6 +13,14 @@ html{
 
 }
 
+body{
+    font-family: 'PT Serif', serif;
+    background-image: url(../media/Plantilla\ de\ Instagram\ con\ citas\ de\ motivación\ minimalista\ degradada\ \(2\).png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
 @import "nav";
 
 @import "inicio";
@@ -20,5 +28,7 @@ html{
 @import "nosotros";
 
 @import "productos";
+
+@import "perfumeYlimpieza";
 
 @import "medias";
