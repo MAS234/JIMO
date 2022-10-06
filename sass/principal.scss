@@ -15,10 +15,6 @@ html{
 
 body{
     font-family: 'PT Serif', serif;
-    background-image: url(../media/Plantilla\ de\ Instagram\ con\ citas\ de\ motivación\ minimalista\ degradada\ \(2\).png);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: 30%;
 }
 
 @import "nav";
@@ -30,5 +26,7 @@ body{
 @import "productos";
 
 @import "perfumeYlimpieza";
+
+@import "contacto";
 
 @import "medias";
